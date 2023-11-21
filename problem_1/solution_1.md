@@ -13,7 +13,7 @@ The `ls` command lists all the files in the current directory and pipes the outp
 I have packaged this into a Bash Script, which accepts both the current and the desired extension as arguments and does the conversion. This could be found in `problem_1` directory under the name `method1.sh`.
 
 ```bash
-$ ls | cut -d"." -f 1 | xargs -I {} mv {}.$1 {}.$2
+$ ls *.$1 | cut -d"." -f 1 | xargs -I {} mv {}.$1 {}.$2
 ```
 
 **Usage:**
