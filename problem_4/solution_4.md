@@ -1,7 +1,5 @@
 # Solution 4
 
-This project requires Tweeter (now X) and Meta APIs for data collection. Both these companies provide different end points which allows retrieve data and metadata and filter them. The response to successful request will be a JSON object that can be simply converted to data frames. There are also built-in libraries in a variety of different programming languages that can be used to call Twitter and Facebook APIs.
-
 - What is the main goal of this research and collecting this data? Understanding the research objective is fundamental to shaping the requirements.
 
 - What is the target population for data collection? This is important because either specific individuals might be the target of this study or a random sample is to be collected in which case a wide range of complementary questions need to be considered. For example:
@@ -31,4 +29,6 @@ This project requires Tweeter (now X) and Meta APIs for data collection. Both th
 - What is the time frame of the research project? The time frame affects the choice of tools and the overall project plan.
 
 - How do you plan to address ethical concerns? This is critical for ensuring responsible and ethical research practices and data handling.
+
+- What technical tools and APIs are required for data collection, and what are their capabilities? This question is important because this project requires Twitter (now X) and Meta APIs for data collection. Both companies provide different endpoints that allow retrieving data and metadata and filtering them. The response to a successful request will be a JSON object that can be easily converted to data frames. There are also built-in libraries in various programming languages that can be used to call Twitter and Facebook APIs. The core question, along with relevant follow-ups, could help flesh out the technical requirements of the project.
 
